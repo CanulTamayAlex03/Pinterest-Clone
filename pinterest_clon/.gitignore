@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+flutter_export_environment.sh  # Añadido - archivo generado por Flutter
+.fvm/  # Añadido - si usas Flutter Version Management
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Añadidos importantes para iOS
+**/ios/Podfile.lock  # Añadido - archivo de dependencias de CocoaPods
+**/ios/Pods/  # Añadido - dependencias de iOS
+**/ios/.generated/  # Añadido - archivos generados
+**/ios/DerivedData/  # Añadido - datos derivados de Xcode
+
+# Añadidos para Android
+**/android/.gradle/  # Añadido - caché de Gradle
+**/android/local.properties  # Añadido - contiene paths locales
+**/android/gradlew.bat  # Añadido - se regeneran
+**/android/gradlew  # Añadido - se regeneran
+
+# Archivos de entorno
+*.env  # Añadido - archivos de entorno
+.env.local  # Añadido
+.env.*.local  # Añadido
+
+# Archivos específicos de usuario
+*.swp  # Añadido
+*.swo  # Añadido
+*.lock  # Añadido - archivos de lock
